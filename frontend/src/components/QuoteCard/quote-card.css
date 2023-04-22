@@ -3,6 +3,7 @@
   border-radius: var(--bradius);
   font-size: 24px;
   padding: 20px;
+  border: 1px solid var(--primary-16);
   box-shadow: 0px 3px 6px var(--primary-16);
   transition: box-shadow 0.2s ease;
 }
