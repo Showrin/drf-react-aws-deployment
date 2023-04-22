@@ -8,3 +8,4 @@ export { default as Row } from "./Row";
 export { default as Col } from "./Col";
 export { default as QuoteList } from "./QuoteList";
 export { default as CookieWatermark } from "./CookieWatermark";
+export { default as Footer } from "./Footer";
