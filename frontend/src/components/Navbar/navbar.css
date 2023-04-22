@@ -1,0 +1,25 @@
+.header {
+  border-bottom: 1px solid var(--primary);
+  padding: 20px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__brand {
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 36px;
+}
+
+.header__logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-right: 6px;
+}
