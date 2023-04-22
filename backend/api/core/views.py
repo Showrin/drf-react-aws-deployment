@@ -1,5 +1,6 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
+from rest_framework.decorators import action
 from .models import Quotes
 from .serializers import QuotesSerializer
 
@@ -24,3 +25,12 @@ class QuoteViewSet(viewsets.ViewSet):
 
         
         return Response(request_serializer.error_messages, status=status.HTTP_400_BAD_REQUEST)
+    
+
+    @action(detail=False)
+    def random(self, request):
+        quote = Quotes.objects.order_by("?").first()
+        serialized_quote = QuotesSerializer(quote).data
+
+        return Response(serialized_quote, status=status.HTTP_200_OK)
+
