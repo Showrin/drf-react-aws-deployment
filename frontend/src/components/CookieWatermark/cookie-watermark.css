@@ -1,0 +1,11 @@
+.cookie-watermark {
+  width: 33.33333%;
+  max-width: 560px;
+  height: auto;
+  position: fixed;
+  bottom: -60px;
+  right: -16px;
+  z-index: -1;
+  transform: rotate(210deg);
+  opacity: 0.05;
+}
