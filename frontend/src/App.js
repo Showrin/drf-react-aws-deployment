@@ -1,9 +1,19 @@
-import { Container } from "./components";
+import {
+  CookieWatermark,
+  FeaturedQuoteSection,
+  Footer,
+  Navbar,
+  QuoteList,
+} from "./components";
 
 export default function App() {
   return (
     <div className="App">
-      <Container>This is Container</Container>
+      <Navbar />
+      <FeaturedQuoteSection />
+      <QuoteList />
+      <CookieWatermark />
+      <Footer />
     </div>
   );
 }
