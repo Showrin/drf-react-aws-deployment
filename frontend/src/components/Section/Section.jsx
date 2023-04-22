@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import classNames from "classnames";
+import Container from "../Container";
 
 const Section = ({ children, className }) => {
   return (
-    <section className={classNames("section", className)}>{children}</section>
+    <section className="section">
+      <Container className={className}>{children}</Container>
+    </section>
   );
 };
 
