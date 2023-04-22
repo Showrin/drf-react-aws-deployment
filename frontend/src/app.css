@@ -107,10 +107,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   list-style: none;
@@ -156,6 +152,7 @@ body {
 
 body {
   line-height: 1.5;
+  letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
 }
 
