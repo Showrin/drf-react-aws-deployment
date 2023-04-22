@@ -1,0 +1,12 @@
+.quote-card {
+  background-color: var(--white-30);
+  border-radius: var(--bradius);
+  font-size: 24px;
+  padding: 20px;
+  box-shadow: 0px 3px 6px var(--primary-16);
+  transition: box-shadow 0.2s ease;
+}
+
+.quote-card:hover {
+  box-shadow: 0px 6px 12px var(--primary-16);
+}

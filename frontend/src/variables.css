@@ -1,7 +1,9 @@
 :root {
   --primary: #89634a;
+  --primary-16: rgba(137, 99, 74, 0.16);
   --secondary: #d4b783;
   --white: #ffffff;
+  --white-30: rgba(255, 255, 255, 0.3);
   --black: #252525;
   --bradius: 5px;
 }
