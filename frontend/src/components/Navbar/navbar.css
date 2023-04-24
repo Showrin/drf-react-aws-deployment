@@ -27,3 +27,10 @@
   height: 48px;
   margin-right: 6px;
 }
+
+.header__github-button svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary);
+  margin: 0 10px 0 0;
+}

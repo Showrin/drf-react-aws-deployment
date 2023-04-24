@@ -11,6 +11,7 @@
   transition: transform 0.1s ease;
   padding: 2px 20px;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 
 .button:active {
@@ -23,4 +24,10 @@
 
 .button--secondary {
   background-color: var(--secondary);
+}
+
+.button--ghost {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
 }
