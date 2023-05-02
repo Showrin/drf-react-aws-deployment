@@ -1,0 +1,119 @@
+[
+  {
+    "model": "core.quotes",
+    "pk": 1,
+    "fields": {
+      "quote": "A son asked his father (a programmer) why the sun rises in the east and sets in the west. His response? It works, don't touch!",
+      "created_at": "2023-04-22T08:08:55.800Z",
+      "updated_at": "2023-04-22T08:08:55.800Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 2,
+    "fields": {
+      "quote": "Programmer: A machine that turns coffee into code.",
+      "created_at": "2023-04-22T21:29:41.895Z",
+      "updated_at": "2023-04-22T21:29:41.895Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 3,
+    "fields": {
+      "quote": "Computers are fast; programmers keep it slow.",
+      "created_at": "2023-04-22T21:29:57.414Z",
+      "updated_at": "2023-04-22T21:29:57.414Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 4,
+    "fields": {
+      "quote": "When I wrote this code, only God and I understood what I did. Now only God knows.",
+      "created_at": "2023-04-22T21:30:20.542Z",
+      "updated_at": "2023-04-22T21:30:20.543Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 5,
+    "fields": {
+      "quote": "How many programmers does it take to change a light bulb? None, that's a hardware problem.",
+      "created_at": "2023-04-22T21:30:41.987Z",
+      "updated_at": "2023-04-22T21:30:41.987Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 6,
+    "fields": {
+      "quote": "Programming is like sex: One mistake and you have to support it for the rest of your life.",
+      "created_at": "2023-04-22T21:30:56.855Z",
+      "updated_at": "2023-04-22T21:30:56.855Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 7,
+    "fields": {
+      "quote": "Programming can be fun, and so can cryptography; however, they should not be combined.",
+      "created_at": "2023-04-22T21:31:12.174Z",
+      "updated_at": "2023-04-22T21:31:12.174Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 8,
+    "fields": {
+      "quote": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.",
+      "created_at": "2023-04-22T21:31:37.503Z",
+      "updated_at": "2023-04-22T21:31:37.503Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 9,
+    "fields": {
+      "quote": "Copy-and-Paste was programmed by programmers for programmers actually.",
+      "created_at": "2023-04-22T21:31:52.258Z",
+      "updated_at": "2023-04-22T21:31:52.258Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 10,
+    "fields": {
+      "quote": "Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.",
+      "created_at": "2023-04-22T21:32:13.015Z",
+      "updated_at": "2023-04-22T21:32:13.015Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 11,
+    "fields": {
+      "quote": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "created_at": "2023-04-22T21:32:31.133Z",
+      "updated_at": "2023-04-22T21:32:31.133Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 12,
+    "fields": {
+      "quote": "Algorithm: Word used by programmers when they don't want to explain what they did.",
+      "created_at": "2023-04-22T21:33:05.801Z",
+      "updated_at": "2023-04-22T21:33:05.801Z"
+    }
+  },
+  {
+    "model": "core.quotes",
+    "pk": 13,
+    "fields": {
+      "quote": "Software and cathedrals are much the same; first we build them, then we pray.",
+      "created_at": "2023-04-22T21:33:34.326Z",
+      "updated_at": "2023-04-22T21:33:34.326Z"
+    }
+  }
+]
