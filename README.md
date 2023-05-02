@@ -45,3 +45,21 @@ Now, we've to define all of our environment variables used in our backend app. W
 1. First, we've to create a file `.env`.
 2. Copy all the variables inside `.env.example` file and paste them in `.env` file.
 3. Now, populate these variables with proper value.
+
+### Migrating our Database
+
+We're just one step behind to run our app. We've created our database in an earlier step. But our DB is now empty.
+
+1. So we've to create necessary tables. To do that, run the following command.
+
+   ```
+   python manage.py migrate
+   ```
+
+2. Then we have to populate our table with some initial data. Run the following command for seeding data.
+
+   ```
+   python manage.py loaddata seeds/quotes.json
+   ```
+
+   This will populate some quotes in the quotes table.
