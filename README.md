@@ -1,5 +1,17 @@
 # drf-react-aws-deployment
 
+## Table of Content
+
+- [drf-react-aws-deployment](#drf-react-aws-deployment)
+  - [Table of Content](#table-of-content)
+  - [How to run the Backend App locally](#how-to-run-the-backend-app-locally)
+    - [Initialize the DB](#initialize-the-db)
+    - [Setup Virtual Environment for backend](#setup-virtual-environment-for-backend)
+    - [Declare Environment Variables](#declare-environment-variables)
+    - [Migrating our Database](#migrating-our-database)
+    - [Run the project :rocket:](#run-the-project-rocket)
+  - [How to run the frontend App locally](#how-to-run-the-frontend-app-locally)
+
 ## How to run the Backend App locally
 
 ### Initialize the DB
@@ -71,3 +83,5 @@ Finally, we're ready to run the backend. Run the following command.
 ```
 python manage.py runserver
 ```
+
+## How to run the frontend App locally
