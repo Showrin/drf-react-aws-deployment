@@ -63,3 +63,11 @@ We're just one step behind to run our app. We've created our database in an earl
    ```
 
    This will populate some quotes in the quotes table.
+
+### Run the project :rocket:
+
+Finally, we're ready to run the backend. Run the following command.
+
+```
+python manage.py runserver
+```
