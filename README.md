@@ -37,3 +37,11 @@ pip install -r requirements.txt
 ```
 
 The above command will install all the packages mentioned in `requirements.txt` file. And our environment is ready to use.
+
+### Declare Environment Variables
+
+Now, we've to define all of our environment variables used in our backend app. We can get all the variables from the `.env.example` file.
+
+1. First, we've to create a file `.env`.
+2. Copy all the variables inside `.env.example` file and paste them in `.env` file.
+3. Now, populate these variables with proper value.
