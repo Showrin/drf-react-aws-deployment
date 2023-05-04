@@ -12,6 +12,7 @@
     - [Run the project :rocket:](#run-the-project-rocket)
   - [How to run the frontend App locally](#how-to-run-the-frontend-app-locally)
     - [Declare Environment Variables](#declare-environment-variables-1)
+    - [Run the project :rocket:](#run-the-project-rocket-1)
 
 ## How to run the Backend App locally
 
@@ -94,3 +95,13 @@ We've to define all of our environment variables used in our frontend app too. W
 1. First, we've to create a file `.env`.
 2. Copy all the variables inside `.env.example` file and paste them in `.env` file.
 3. Now, populate these variables with proper value.
+4.
+
+### Run the project :rocket:
+
+Finally, we're ready to run the frontend. Run the following command.
+
+```
+yarn
+yarn start
+```
