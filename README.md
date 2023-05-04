@@ -11,6 +11,7 @@
     - [Migrating our Database](#migrating-our-database)
     - [Run the project :rocket:](#run-the-project-rocket)
   - [How to run the frontend App locally](#how-to-run-the-frontend-app-locally)
+    - [Declare Environment Variables](#declare-environment-variables-1)
 
 ## How to run the Backend App locally
 
@@ -52,7 +53,7 @@ The above command will install all the packages mentioned in `requirements.txt` 
 
 ### Declare Environment Variables
 
-Now, we've to define all of our environment variables used in our backend app. We can get all the variables from the `.env.example` file.
+Now, we've to define all of our environment variables used in our backend app. We can get all the variables from the `backend/.env.example` file.
 
 1. First, we've to create a file `.env`.
 2. Copy all the variables inside `.env.example` file and paste them in `.env` file.
@@ -85,3 +86,11 @@ python manage.py runserver
 ```
 
 ## How to run the frontend App locally
+
+### Declare Environment Variables
+
+We've to define all of our environment variables used in our frontend app too. We can get all the variables from the `frontend/.env.example` file.
+
+1. First, we've to create a file `.env`.
+2. Copy all the variables inside `.env.example` file and paste them in `.env` file.
+3. Now, populate these variables with proper value.
